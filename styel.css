@@ -30,7 +30,7 @@ body{
 .sket-sec{
     width: 100%;
     height: 100px;
-    margin-bottom: 8px;
+    margin-bottom: 12px;
     background-color: rgb(10, 9, 32);
     display: flex;
     align-items: center;
@@ -50,7 +50,7 @@ body{
     border-radius: 90px 20px ;
     text-align: center;
     text-transform: uppercase;
-    margin-bottom: 10px;
+    margin-bottom: 12px;
     background-color:rgb(10, 9, 32) ;
     backdrop-filter: blur(30px);
 }
@@ -63,6 +63,12 @@ body{
     backdrop-filter: blur(20px);
     border-radius: 15px;
     padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 5px;
 }
 
 .btn-item{
@@ -80,4 +86,42 @@ body{
 }
 .btn-item:active{
     background-color: rgb(40, 7, 65);
+}
+.btn-click{
+    background-color:#d1df0f;
+}
+.sket-batt{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 12px;
+}
+.batt-box-left{
+    width: 200px;
+    height: 70px;
+    padding: 3px;
+    margin-left: 12px;
+    border: 5px solid #c4c5ba ;
+    border-radius: 8px;
+}
+.batt-inside-box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight:900 ;
+    font-size: 50px;
+}
+.batt-inside-box{
+
+    height: 100%;
+    background-color: #05a81a;
+    border-radius: 4px;
+
+}
+.batt-box-right{
+    width: 12px;
+    height: 35px;
+    background-color:#c4c5ba ;
+    margin-left: 2px;
+    border-radius: 4px;
 }
