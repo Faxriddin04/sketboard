@@ -1,0 +1,83 @@
+*{
+    box-sizing: border-box;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    
+}
+html{
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 26px;
+    font-weight: 800;
+
+}
+.container{
+    /* width: 100%;
+    max-width: 1250px; */
+    padding-left: 50px;
+    padding-right: 50px;
+}
+body{
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    color:#fff;
+    background-color: rgb(12, 10, 39);
+
+}
+.sket-sec{
+    width: 100%;
+    height: 100px;
+    margin-bottom: 8px;
+    background-color: rgb(10, 9, 32);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.sket-sec-text{
+    text-align: center;
+    text-transform: uppercase;
+    font-stretch: condensed;
+    letter-spacing: 5px;
+
+}
+.speed-sked{
+    padding: 25px;
+    border: 3px solid #fff;
+    border-radius: 90px 20px ;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    background-color:rgb(10, 9, 32) ;
+    backdrop-filter: blur(30px);
+}
+.speed-txt{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 70px;
+}
+.function-btn{
+    background-color:rgb(13, 12, 41);
+    backdrop-filter: blur(20px);
+    border-radius: 15px;
+    padding: 10px;
+}
+
+.btn-item{
+    width: 100px;
+    border: 2px solid rgb(16, 1, 27) ;
+    padding: 5px 3px ;
+    margin-left: 13px;
+    color: aliceblue;
+    font-size: 17px;
+    font-weight: 800;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    letter-spacing: 3px;
+    border-radius: 8px;
+    background-color: rgb(23, 2, 39);
+}
+.btn-item:active{
+    background-color: rgb(40, 7, 65);
+}
