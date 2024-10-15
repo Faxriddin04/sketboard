@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>sketboard</title>
     <link rel="stylesheet" href="styel.css">
+    
 </head>
 <body>
     <div class="sket-sec">
@@ -21,16 +22,16 @@
                 <p class="km-soat">km/s</p>
             </div>
             <div class="function-btn">
-                    <button class="btn-item ">
+                    <button class="btn-item " id="btn-ahead">
                         AHEAD
                     </button>
-                    <button class="btn-item ">
+                    <button class="btn-item " id="btn-back">
                         BACK
                     </button>
-                    <button class="btn-item ">
+                    <button class="btn-item " id="btn-up">
                         UP 
                     </button>
-                    <button class="btn-item ">
+                    <button class="btn-item " id="btn-down">
                         DOWN
                     </button>
             </div>
@@ -49,4 +50,19 @@
 
     </div>
 </body>
+<script >
+    let btn_ahead = document.getElementById('btn-ahead').onclick = function(){
+        this.classList.toggle("btn-click")
+    }
+    let btn_back = document.getElementById('btn-back').onclick = function(){
+        this.classList.toggle('btn-click')
+    }
+    let btn_up = document.getElementById('btn-up').onclick = function(){
+        this.classList.toggle('btn-click')
+    }
+    let btn_down = document.getElementById('btn-down').onclick = function(){
+        this.classList.toggle('btn-click')
+    }
+
+</script>
 </html>
